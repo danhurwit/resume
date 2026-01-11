@@ -8,7 +8,7 @@ Whately, MA | dhurwit@gmail.com | 617-721-2365 | [github.com/danhurwit](https://
 ```{=latex}
 \firstjob{ServiceNow Cloud Observability}{Sr. Staff Software Engineer, Remote}{Feb. 2022 — Present}
 ```
-- Led the design and delivery of a distributed synthetic monitoring platform, owning architecture, execution, and long-term technical direction from initial concept through production scale and achieving 10M ARR
+- Led the design and delivery of a distributed synthetic monitoring platform, owning architecture, execution, and long-term technical direction from initial concept through production scale and achieving $10M ARR in year one.
 - Provided technical leadership across 35 engineers and multiple teams, setting architectural standards and influencing roadmap decisions to improve reliability, velocity, and developer experience.
 - Re-architected system-critical services to remove single points of failure, improving availability from three nines to five nines and enabling consistent SLA compliance.
 - Designed and implemented asynchronous processing infrastructure to decouple latency-sensitive paths, supporting hundreds of requests per second under sustained load.
