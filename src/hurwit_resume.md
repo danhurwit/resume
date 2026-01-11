@@ -6,31 +6,30 @@ Whately, MA | dhurwit@gmail.com | 617-721-2365 | [github.com/danhurwit](https://
 ## Work Experience
 
 ```{=latex}
-\firstjob{ServiceNow Cloud Observability}{Sr. Staff Software Engineer}{Feb. 2022 — Present}
+\firstjob{ServiceNow Cloud Observability}{Sr. Staff Software Engineer, Remote}{Feb. 2022 — Present}
 ```
-- Led a team of six engineers to develop a net new synthetic monitoring product, growing it from concept to $10M in annual revenue.
-- Provided technical leadership to 35 engineers spanning multiple teams, setting technical roadmap based on upcoming features and engineer feedback, building foundational systems that accelerated feature delivery and improved platform reliability.
-- Embedded with struggling teams to diagnose performance and culture issues, driving process improvements and leadership changes that resulted in both teams meeting delivery targets.
-- Served as backend lead for the dashboards product, a core Lightstep offering, defining long-term architecture that enabled customers to more effectively leverage the platform.
-- Oversaw and implemented multiple tech debt remediation efforts to rearchitect system-critical components resulting in an availability increase from 3 to 5 nines and the platform hitting SLA targets.
-- Redefined on-call structure and alerting standards, eliminating false positives and flapping errors, significantly reducing on-call burden while improving alert actionability.
-- Designed and built a distributed queueing system, enabling product teams to offload non-time-sensitive workloads asynchronously, processing hundreds of requests per second.
+- Led the design and delivery of a distributed synthetic monitoring platform, owning architecture, execution, and long-term technical direction from initial concept through production scale and achieving 10M ARR
+- Provided technical leadership across 35 engineers and multiple teams, setting architectural standards and influencing roadmap decisions to improve reliability, velocity, and developer experience.
+- Re-architected system-critical services to remove single points of failure, improving availability from three nines to five nines and enabling consistent SLA compliance.
+- Designed and implemented asynchronous processing infrastructure to decouple latency-sensitive paths, supporting hundreds of requests per second under sustained load.
+- Defined on-call and alerting standards grounded in signal quality and actionability, significantly reducing alert fatigue while improving incident response effectiveness.
+- Embedded with underperforming teams to diagnose technical and organizational bottlenecks, driving changes that restored delivery and reliability outcomes.
+```{=latex}
+\job{Drift}{Staff Software Engineer - Product, Boston, MA}{Jul. 2018 — Feb. 2022}
+```
+- Led integration of an acquired machine learning system into Drift’s core platform, designing a real-time inference architecture supporting multiple models and high-throughput request patterns.
+- Owned reliability improvements across critical backend services, increasing MTBF by 20% through improved fault tolerance and operational rigor.
+- Drove platform efficiency initiatives that reduced infrastructure costs by $1M+ annually, directly improving company net revenue.
+- Managed and mentored a cross-functional team of four engineers, maintaining 100% retention and promoting senior technical growth.
+- Designed and built foundational platform primitives, including a globally unique ID generation system supporting thousands of requests per second and multi-data-center expansion.
+- Established an engineering-wide outage review forum to drive systemic fixes and reinforce blameless operational culture.
 
 ```{=latex}
-\job{Drift}{Staff Software Engineer - Product}{Jul. 2018 — Feb. 2022}
+\job{Aurora Flight Sciences}{Junior Software Engineer, Cambridge, MA}{Jul. 2016 — Jul. 2018}
 ```
-- Led a team of four engineers to integrate an acquired ML product into Drift, designing the architecture for a real-time inference platform handling hundreds of requests per second across multiple models.
-- Managed four direct reports across frontend, backend and fullstack roles, achieving 100% retention and promoting one engineer to senior level.
-- Identified operational inefficiencies and optimized resource usage across all platforms, saving over $1M in AWS spend and resulting in a 2% increase in company net revenue.
-- Led eight engineers to identify and harden critical platform paths, increasing MTBF by 20% through process improvements and additional fault tolerance logic.
-- Created and led monthly engineering-wide forum to discuss outages and identify systemic changes to prevent future incidents and encourage open, blameless discussion of failures.
-- Designed and built a globally unique ID generation system handling thousands of requests per second, enabling expansion to multiple data centers.
-
-```{=latex}
-\job{Aurora Flight Sciences}{Junior Software Engineer}{Jul. 2016 — Jul. 2018}
-```
-- Built a neural network using TensorFlow and Python to classify mental workload from EEG data as part of an SBIR grant.
-- Awarded patent for end-to-end development of novel gripper concept to augment robotic end effectors.
+- Built machine learning models using TensorFlow and Python to classify mental workload from EEG data as part of an SBIR research program.
+- Led end-to-end development of a novel robotic gripper concept, resulting in an awarded patent supporting a NASA grant.
+- Owned systems integration for an autonomous data-collection aircraft, working across software, hardware, and control systems.
 
 ## Projects
 
