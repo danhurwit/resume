@@ -1,0 +1,66 @@
+\documentclass[10pt,letterpaper]{article}
+
+% Page setup
+\usepackage[margin=0.5in]{geometry}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+% Professional sans-serif font
+\usepackage{fontspec}
+\setmainfont{Calibri}
+
+% Colors - more professional/muted
+\usepackage{xcolor}
+\definecolor{accent}{RGB}{70, 90, 110}
+\definecolor{darkgray}{RGB}{60, 60, 60}
+\definecolor{medgray}{RGB}{100, 100, 100}
+
+% Links
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, urlcolor=darkgray, linkcolor=darkgray}
+
+% Tables
+\usepackage{tabularx}
+
+% Lists
+\usepackage{enumitem}
+\setlist[itemize]{leftmargin=1.3em, itemsep=0pt, parsep=0pt, topsep=0pt}
+
+% Section formatting
+\usepackage{titlesec}
+
+\titleformat{\section}{\fontsize{28}{36}\bfseries}{}{0pt}{}
+\titlespacing*{\section}{0pt}{0pt}{4pt}
+
+\titleformat{\subsection}{\fontsize{11}{13}\bfseries\color{accent}\uppercase}{}{0pt}{}
+\titlespacing*{\subsection}{0pt}{12pt}{4pt}
+
+\titleformat{\subsubsection}{\fontsize{10}{12}\bfseries}{}{0pt}{}
+\titlespacing*{\subsubsection}{0pt}{6pt}{2pt}
+
+\providecommand{\tightlist}{\setlength{\itemsep}{1pt}\setlength{\parskip}{0pt}}
+
+% Job entry command: \job{Company}{Title}{Dates}
+\newcommand{\job}[3]{%
+\vspace{10pt}
+\noindent\begin{tabularx}{\textwidth}{@{}X r@{}}
+\textbf{#1} \textnormal{|} #2 & \textcolor{medgray}{#3}
+\end{tabularx}\vspace{-12pt}
+}
+
+% First job entry (no top spacing)
+\newcommand{\firstjob}[3]{%
+\noindent\begin{tabularx}{\textwidth}{@{}X r@{}}
+\textbf{#1} \textnormal{|} #2 & \textcolor{medgray}{#3}
+\end{tabularx}\vspace{-12pt}
+}
+
+\begin{document}
+
+\section*{$title$}
+\vspace{0pt}
+
+$body$
+
+\end{document}
